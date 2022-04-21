@@ -1,0 +1,44 @@
+<!-- <div class="tick" [attr.data-value]="time">
+  <div data-layout="horizontal fit">
+    <div data-layout="horizontal center" data-repeat="true" data-transform="pad('00000000') -> split -> delay(random, 10, 30)">
+      arrive(9, .1) -> round ->
+      <span data-view="flip">1</span>
+    </div>
+  </div>
+</div> πϕe-->
+<div *ngIf="index" class="container">
+  <div class="time-container">
+    <div class="tick above text" [attr.data-value]="time">
+      <div data-value-mapping="indexes" data-layout="horizontal fit" data-transform="pad('00000') -> split">
+        <!-- <span data-view="flip" class="pi-flip"></span> -->
+        <span data-view="flip"></span>
+        <span data-view="flip"></span>
+        <span class="tick-text-inline">:</span>
+        <span data-view="flip"></span>
+        <span data-view="flip"></span>
+        <span class="tick-text-inline">:</span>
+        <span data-view="flip"></span>
+        <span data-view="flip"></span>
+      </div>
+    </div>
+  </div>
+  <div class="tick text" [attr.data-value]="index">
+    <div data-value-mapping="indexes" data-layout="horizontal fit" data-transform="pad('00000000') -> split -> delay(random, 10, 35)">
+      <span data-view="flip" class="flip-pi" 
+      (click)="switchChar()">{{currentSymbol}}</span>
+      <span class="tick-text-inline-plus"> </span>
+      <span data-view="flip"></span>
+      <span data-view="flip"></span>
+      <span class="tick-text-inline"> </span>
+      <span data-view="flip"></span>
+      <span data-view="flip"></span>
+      <span data-view="flip"></span>
+      <span class="tick-text-inline"> </span>
+      <span data-view="flip"></span>
+      <span data-view="flip"></span>
+      <span data-view="flip"></span>
+    </div>
+  </div>
+  <div class="tick-text-inline foot-right text">Index of the current time in <span class="symbol">{{currentSymbol}}</span> decimals.</div>
+  <div class="tick-text-inline foot-left text"><span class="arraow">⇧</span> Click to change the constant.</div>
+</div>

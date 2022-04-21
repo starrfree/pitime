@@ -1,0 +1,20 @@
+# service: pitime
+runtime: nodejs16
+
+handlers:
+  - url: /
+    secure: always
+    static_files: dist/pi-clock/index.html
+    upload: dist/pi-clock/index.html
+
+  #  Routing rules for resources, css, js, images etc. Any file with format filename.ext
+  - url: /(.*\.(.+))$
+    secure: always
+    static_files: dist/pi-clock/\1
+    upload: dist/pi-clock/(.*\.(.+))$
+
+  #  Routing rule for Angular Routing
+  - url: /(.*)
+    secure: always
+    static_files: dist/pi-clock/index.html
+    upload: dist/pi-clock/index.html

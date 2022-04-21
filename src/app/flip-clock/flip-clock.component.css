@@ -1,0 +1,56 @@
+.tick {
+  font-size: 1rem; 
+  white-space: nowrap; 
+  font-variant-numeric: tabular-nums;
+}
+
+.above {
+  margin-bottom: 5%;
+}
+
+.tick-text-inline {
+  color: #595d63; 
+  display: inline-block;
+  text-align: center;
+  min-width: 2%;
+}
+
+.time-container {
+  width: 72%;
+  margin: 0 auto;
+}
+
+.text {
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: arial, sans-serif; */
+  font-weight: 530;
+}
+
+.flip-pi {
+  line-height: 130%;
+}
+
+.foot-right {
+  position: absolute;
+  right: 15px;
+  max-width: 40%;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.foot-left {
+  position: absolute;
+  left: 15px;
+  max-width: 40%;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.arraow {
+  font-weight: bolder;
+}
+
+.tick-text-inline-plus {
+  min-width: 3% !important;
+}
