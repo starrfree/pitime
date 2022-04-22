@@ -22,7 +22,9 @@ export class FlipClockComponent implements OnInit {
     return this.piService.characters[this.currentCharIndex][1]
   }
 
-  constructor(public piService: PiService) { }
+  constructor(public piService: PiService) {
+    this.currentCharIndex = +(localStorage.getItem('currentCharIndex') ?? '0')
+  }
 
   ngOnInit(): void {
     const script = document.createElement('script');
@@ -63,6 +65,7 @@ export class FlipClockComponent implements OnInit {
 
   switchChar() {
     this.currentCharIndex = (this.currentCharIndex + 1) % this.piService.characters.length
+    localStorage.setItem('currentCharIndex', `${this.currentCharIndex}`)
     this.setIndex()
   }
 }
