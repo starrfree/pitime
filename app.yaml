@@ -1,4 +1,4 @@
-# service: pitime
+service: pitime
 runtime: nodejs16
 
 handlers:

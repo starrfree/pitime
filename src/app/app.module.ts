@@ -5,11 +5,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { FlipClockComponent } from './flip-clock/flip-clock.component';
 import { AppRoutingModule } from './app-routing.module';
+import { GithubLinkComponent } from './github-link/github-link.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FlipClockComponent
+    FlipClockComponent,
+    GithubLinkComponent
   ],
   imports: [
     BrowserModule,

@@ -54,3 +54,12 @@
 .tick-text-inline-plus {
   min-width: 3% !important;
 }
+
+.foot {
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 10px;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+}

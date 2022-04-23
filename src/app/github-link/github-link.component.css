@@ -1,0 +1,13 @@
+a {
+  text-decoration: underline;
+  color: #595d63;
+}
+
+.text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 530;
+  color: #595d63;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}

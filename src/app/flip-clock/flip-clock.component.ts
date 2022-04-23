@@ -22,6 +22,10 @@ export class FlipClockComponent implements OnInit {
     return this.piService.characters[this.currentCharIndex][1]
   }
 
+  get constantValue() {
+    return this.piService.values[this.currentCharIndex]
+  }
+
   constructor(public piService: PiService) {
     this.currentCharIndex = +(localStorage.getItem('currentCharIndex') ?? '0')
   }
@@ -50,7 +54,7 @@ export class FlipClockComponent implements OnInit {
     var pos = this.piService.indices[this.currentChar][index]
     var paddedPos = this.currentSymbol
     for(var i = 0; i < 8 - pos.length; i++) {
-      paddedPos += 0
+      paddedPos += '0'
     }
     paddedPos += pos
     this.index = paddedPos

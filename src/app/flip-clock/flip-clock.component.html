@@ -22,7 +22,7 @@
       </div>
     </div>
   </div>
-  <div class="tick text" [attr.data-value]="index">
+  <div class="tick text" attr.data-value="{{index}}">
     <div data-value-mapping="indexes" data-layout="horizontal fit" data-transform="pad('00000000') -> split -> delay(random, 10, 35)">
       <span data-view="flip" class="flip-pi" 
       (click)="switchChar()">{{currentSymbol}}</span>
@@ -41,4 +41,5 @@
   </div>
   <div class="tick-text-inline foot-right text">Index of the current time in <span class="symbol">{{currentSymbol}}</span> decimals.</div>
   <div class="tick-text-inline foot-left text"><span class="arraow">⇧</span> Click to change the constant.</div>
+  <!-- <div class="tick-text-inline foot text">{{currentSymbol}} = {{constantValue}}</div> -->
 </div>
