@@ -31,7 +31,8 @@ The below tables show some special indices:
 | 25981860 | 01:24:38 |
 
 <details>
-  <summary>Repetitions</summary> 
+  <summary>Repetitions</summary>
+
   ## Repetitions
   ### PI
   | Index   | Time     |
@@ -55,6 +56,7 @@ The below tables show some special indices:
 
 <details>
   <summary>Round numbers</summary> 
+
   ## Round numbers
   ### PI
   None
@@ -73,6 +75,7 @@ The below tables show some special indices:
 
 <details>
   <summary>Perfect powers of 4</summary> 
+
   ## Perfect powers of 4
   ### PI
   | Index   | Time     |
@@ -97,6 +100,7 @@ The below tables show some special indices:
 
 <details>
   <summary>Perfect cubes</summary>
+
   ## Perfect cubes
   ### PI
   | Index  | Time     |
@@ -141,9 +145,11 @@ The below tables show some special indices:
 
 <details>
   <summary>Perfect squares</summary>
+
   ## Perfect squares
   <details>
     <summary>PI</summary>
+
     ### PI
     | Index   | Time     |
     |---------|----------|
@@ -212,8 +218,10 @@ The below tables show some special indices:
     | 1425636 | 23:43:08 |
     | 305809  | 12:44:00 |
   </details>
+
   <details>
     <summary>E</summary>
+
     ### E
     | Index   | Time     |
     |---------|----------|
@@ -277,8 +285,10 @@ The below tables show some special indices:
     | 1054729 | 04:58:01 |
     | 293764  | 12:25:42 |
   </details>
+
   <details>
     <summary>PHI</summary>
+
     ### PHI
     | Index   | Time     |
     |---------|----------|
@@ -343,8 +353,10 @@ The below tables show some special indices:
     | 1535121 | 19:40:13 |
     | 972196  | 19:05:55 |
   </details>
+
   <details>
     <summary>GAMMA</summary>
+
     ### GAMMA
     | Index   | Time     |
     |---------|----------|
@@ -421,9 +433,11 @@ The below tables show some special indices:
 
 <details>
   <summary>Palyndromes</summary>
+
   ## Palyndromes
   <details>
     <summary>PI</summary>
+
     ### PI
     | Index   | Time     |
     |---------|----------|
@@ -562,8 +576,10 @@ The below tables show some special indices:
     | 54145   | 05:58:17 |
     | 87278   | 08:22:48 |
   </details>
+
   <details>
     <summary>E</summary>
+
     ### E
     | Number  | String   |
     |---------|----------|
@@ -706,8 +722,10 @@ The below tables show some special indices:
     | 93239   | 22:49:29 |
     | 14441   | 21:43:31 |
   </details>
+
   <details>
     <summary>PHI</summary>
+
     ### PHI
     | Index   | Time     |
     |---------|----------|
@@ -833,8 +851,10 @@ The below tables show some special indices:
     | 1737371 | 00:14:24 |
     | 1172711 | 21:52:14 |
   </details>
+  
   <details>
     <summary>GAMMA</summary>
+
     ### GAMMA
     | Index   | Time     |
     |---------|----------|
